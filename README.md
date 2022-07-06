@@ -1,6 +1,7 @@
 # DSCI 510 Final Project
 
-Description: I created two python files, scrape.py and plot.py. Scrape.py is a .py file with scraping the data, the primary python file, and plot.py is a .py file with getting analysis graphs for this project.
+## Description: 
+I created two python files, scrape.py and plot.py. Scrape.py is a .py file with scraping the data, the primary python file, and plot.py is a .py file with getting analysis graphs for this project.
 As for scrape.py, I identify some countries (USA, Brazil, India, Russia, Mexico, France, UK, Peru, Bulgaria, Bosnia and Herzegovina, Hungary, Georgia) based on the high number of death rate, 
 death number, and total number of cases on the url, then I have created the dataset cases_and_deaths_dataset.csv with each country's death rate, 
 death number, total number of confirmed cases of covid-19, and the date "by 3/29/2022' on each row; based on the countries from dataset named cases_and_deaths_dataset.csv, 
@@ -10,7 +11,8 @@ meanwhile, in terms of plot.py, I make four bar graphs based on each country's d
 Bar Graph for Death Number of Each Country by 3/29/2022, Bar Graph for Population of Each Country by 3/29/2022, Bar Graph for Dose Number of Each Country by 3/29/2022, 
 Bar Graph for Recovered Number of Each Country by 3/29/2022; and one line plot graph based on the each country's population and recovered number: Plot for Recovered Rate in Each Country by 3/29/2022. 
 
-Requirements: Following requirements are needed to be satisfied to run all the codes:
+## Requirements: 
+Following requirements are needed to be satisfied to run all the codes:
 Packages to be installed:
 1.bs4
 2.requests
@@ -21,7 +23,7 @@ To install above packages use the following command: pip install -r requirements
 
 
 
-Data Sources:
+## Data Sources:
 1.Number of Total Cases, Death Rate, and Deaths by Country Over the World(https://www.bbc.com/news/world-51235105)
 One data table from this URL shows the total number of confirmed cases, death rate, and deaths from over 100 different countries respectively by 
 March 29th, 2022 after covid-19 outbreak. I will use top 5 countries (US, Brazil, India, Russia, and Mexico) based on the highest number of covid-19 death 
@@ -40,7 +42,7 @@ recovered cases and population of each country by March 29th, 2022 in my analysi
 
 
 
-Running the code file named scrape.py:
+## Running the code file named scrape.py:
 The code can be run in three modes:default, scrape, and static
 
 Default mode: To run the code in default mode, type command - python3 Weiqian_Zhang_HW4_DSCI510.py
@@ -61,5 +63,5 @@ run in the command line of the code again).
 
 
 
-Running the code file named plot.py:
+## Running the code file named plot.py:
 First, I just import the scrape.py, then write some codes which you can just run the code directly, and finally you can get the graphs which can be used to be analyzed. 
